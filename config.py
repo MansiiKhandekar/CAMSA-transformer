@@ -1,0 +1,13 @@
+MAX_VOCAB_SIZE = 20000
+MAX_SEQ_LEN = 256
+USE_CAMSA=False #true for CAMSA model, false for standard
+BATCH_SIZE = 32
+EMBED_DIM = 256
+NUM_HEADS = 8
+NUM_LAYERS = 4
+FF_DIM = 512
+USE_CAMSA = False #true for CAMSA model
+EPOCHS = 5
+LEARNING_RATE = 3e-4
+DEVICE = "cuda"
+STRIDES = [1, 2, 4]

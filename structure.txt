@@ -1,0 +1,29 @@
+context-adaptive-transformer/
+│
+├── data/
+│
+├── models/
+│   ├── camsa_attention.py
+│   ├── transformer_block.py
+│   ├── model.py
+│
+├── utils/
+│   ├── tokenizer.py
+│   ├── dataset_loader.py
+│   ├── masks.py
+│   ├── positional_encoding.py
+│
+├── training/
+│   ├── train.py
+│   ├── evaluate.py
+│
+├── visualization/
+│   ├── attention_visualizer.py
+│
+├── experiments/
+│   ├── baseline_transformer.py
+│
+├── config.py
+├── main.py
+├── requirements.txt
+└── README.md
